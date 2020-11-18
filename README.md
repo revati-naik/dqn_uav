@@ -1,27 +1,27 @@
-##Uncertainty Estimation in Deep Learning Networks
+## Uncertainty Estimation in Deep Learning Networks
 
 
 This is the code sample to implement the deep learning model with ResNet18 Architecture and ADF layers to calculate the uncertainty and provide a confidence score. 
 
 
 
-###Prerequisites
+### Prerequisites
 
   * torch 1.4.0
   * torchvision 0.5.0
 
 
-###Data
+### Data
 
 The code uses CIFAR-10 data set to train and run the evaluation. The dataset is automatically downlaoded in teh code script.
 
-###Training
+### Training
 
 Resume the training using
 
-python train.py -r --model_name resnet18
+    python train.py -r --model_name resnet18
 
-###Evaluation
+### Evaluation
 
 Evaulate/test the model using
 
